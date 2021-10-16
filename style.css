@@ -9,7 +9,7 @@ body {
     position: relative;
     max-width: 1200px;
     grid-template: repeat(8, 1fr) / repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 25px;
 }
 
 header {
@@ -25,9 +25,11 @@ header {
 }
 
 .about img {
-    size: 33%;
-    border-radius: 2px;
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
     float: left;
+    padding: 10px;
 }
 
 .blog {
