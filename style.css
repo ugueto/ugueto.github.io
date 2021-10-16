@@ -1,3 +1,44 @@
-main {
-    margin: 10px 100px;
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+    grid-template: repeat(8, 1fr) / repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+header {
+    grid-area: 1 / 1 / 2 / span 4;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+}
+
+.about {
+    grid-area: 2 / 1 / span 6 / span 2;
+}
+
+.blog {
+    grid-area: 2 / 3 / span 6 / span 2;
+}
+
+p {
+    line-height: 200%;
+}
+
+.blog ul {
+    list-style-type: none;
+    line-height: 200%;
+}
+
+footer {
+    grid-area: 8 / 1 / span 1 / span 4;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
 }
