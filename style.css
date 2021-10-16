@@ -21,6 +21,13 @@ header {
 
 .about {
     grid-area: 2 / 1 / span 6 / span 2;
+    text-align: justify;
+}
+
+.about img {
+    size: 33%;
+    border-radius: 2px;
+    float: left;
 }
 
 .blog {
