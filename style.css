@@ -1,35 +1,30 @@
 body {
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 .container {
     display: grid;
     margin: auto;
     position: relative;
-    max-width: 1200px;
+    max-width: 1000px;
     grid-template: repeat(8, 1fr) / repeat(4, 1fr);
     grid-gap: 25px;
 }
 
 header {
     grid-area: 1 / 1 / 2 / span 4;
-    background-color: cadetblue;
     text-align: center;
-    color: white;
+}
+
+header p {
+    color: gray;
+    font-size: 25px;
 }
 
 .about {
     grid-area: 2 / 1 / span 6 / span 2;
     text-align: justify;
-}
-
-.about img {
-    width: 30%;
-    height: auto;
-    border-radius: 10%;
-    float: left;
-    padding: 10px;
 }
 
 .blog {
@@ -42,12 +37,10 @@ p {
 
 .blog ul {
     list-style-type: none;
-    line-height: 200%;
+    line-height: 300%;
 }
 
 footer {
     grid-area: 8 / 1 / span 1 / span 4;
-    background-color: cadetblue;
     text-align: center;
-    color: white;
 }
