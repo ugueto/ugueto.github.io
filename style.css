@@ -31,6 +31,16 @@ header p {
     grid-area: 2 / 3 / span 6 / span 2;
 }
 
+.about a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+.blog a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
 p {
     line-height: 200%;
 }
