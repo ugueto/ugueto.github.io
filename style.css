@@ -8,12 +8,12 @@ body {
     margin: auto;
     position: relative;
     max-width: 1000px;
-    grid-template: repeat(8, 1fr) / repeat(4, 1fr);
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
     grid-gap: 25px;
 }
 
 header {
-    grid-area: 1 / 1 / 2 / span 4;
+    grid-area: 1 / 1 / span 1 / span 4;
     text-align: center;
 }
 
@@ -22,13 +22,21 @@ header p {
     font-size: 25px;
 }
 
+header .icons i {
+    color: gray;
+    padding: 10px;
+}
+
+header .icons i:hover {
+    color: black;
+}
 .about {
-    grid-area: 2 / 1 / span 6 / span 2;
+    grid-area: 2 / 1 / span 4 / span 2;
     text-align: justify;
 }
 
 .blog {
-    grid-area: 2 / 3 / span 6 / span 2;
+    grid-area: 2 / 3 / span 4 / span 2;
 }
 
 .about a:visited {
@@ -51,6 +59,6 @@ p {
 }
 
 footer {
-    grid-area: 8 / 1 / span 1 / span 4;
+    grid-area: 6 / 1 / span 1 / span 4;
     text-align: center;
 }
