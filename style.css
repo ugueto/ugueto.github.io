@@ -70,6 +70,15 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .container {
+        display: grid;
+        margin: auto;
+        position: relative;
+        max-height: 900px;
+        grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+        grid-gap: 25px;
+    }
     
     .about {
         grid-area: 2 / 1 / span 1 / span 4;
