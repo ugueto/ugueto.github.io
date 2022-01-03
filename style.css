@@ -54,9 +54,15 @@ p {
     line-height: 200%;
 }
 
-.blog ul {
+.about ul {
     list-style-type: '\01F4D6';
+    padding: 10px;
+}
+
+.blog ul {
+    list-style-type: '\2712';
     line-height: 300%;
+    padding: 10px;
 }
 
 .blog .quote {
