@@ -55,7 +55,7 @@ p {
 }
 
 .blog ul {
-    list-style-type: '\2712';
+    list-style-type: none;
     line-height: 300%;
 }
 
