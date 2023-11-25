@@ -13,13 +13,7 @@ body {
 }
 
 header {
-    grid-area: 1 / 1 / span 1 / span 4;
     text-align: center;
-}
-
-header p {
-    color: gray;
-    font-size: 25px;
 }
 
 header .icons i {
@@ -30,6 +24,7 @@ header .icons i {
 header .icons i:hover {
     color: black;
 }
+
 .about {
     grid-area: 2 / 1 / span 2 / span 2;
     padding: 10px;
