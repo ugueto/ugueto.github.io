@@ -21,11 +21,8 @@ header .icons {
 }
 
 header .icons i {
-    padding: 10px;
-}
-
-header .icons i:hover {
     color: cadetblue;
+    padding: 10px;
 }
 
 .about {
@@ -38,7 +35,12 @@ header .icons i:hover {
     padding: 10px;
 }
 
-.blog .about a {
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:visited {
     color: cadetblue;
     text-decoration: none;
 }
