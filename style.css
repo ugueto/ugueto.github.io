@@ -8,14 +8,12 @@ body {
     margin: auto;
     position: relative;
     max-width: 1000px;
-    grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     grid-gap: 20px;
 }
 
 header {
-    background-color: cadetblue;
-    grid-area: 1 / 1 / 6 / 6;
-    color: white;
+    grid-area: 1 / 1 / span 1 / span 4;
 }
 
 header .icons {
@@ -23,32 +21,31 @@ header .icons {
 }
 
 header .icons i {
-    color: white;
     padding: 10px;
 }
 
 header .icons i:hover {
-    color: black;
+    color: cadetblue;
 }
 
 .about {
-    grid-area: 2 / 1 / span 4 / span 4;
+    grid-area: 2 / 1 / span 2 / span 2;
     padding: 10px;
 }
 
 .blog {
-    grid-area: 2 / 3 / span 4 / span 4;
+    grid-area: 2 / 3 / span 2 / span 2;
     padding: 10px;
 }
 
 .about a:visited {
     text-decoration: none;
-    color: blue;
+    color: cadetblue;
 }
 
 .blog a:visited {
     text-decoration: none;
-    color: blue;
+    color: cadetblue;
 }
 
 p {
@@ -66,14 +63,11 @@ p {
 
 
 footer {
-    background-color: cadetblue;
-    grid-area: 6 / 1 / 6 / 6;
+    grid-area: 4 / 1 / span 1 / span 4;
     text-align: center;
-    color: white;
 }
 
 @media only screen and (max-width: 600px) {
-
     .container {
         display: grid;
         margin: auto;
@@ -92,5 +86,4 @@ footer {
         grid-area: 3 / 1 / span 1 / span 4;
         padding: 10px;
     }
-
 }
