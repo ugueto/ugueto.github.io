@@ -50,11 +50,6 @@ p {
     line-height: 200%;
 }
 
-.blog ul {
-    list-style-type: none;
-    line-height: 300%;
-}
-
 .blog .quote {
     color: gray;
 }
