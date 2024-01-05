@@ -2,13 +2,14 @@
 <html lang='en'>
     
 <head>
-        <title>Echo & Zulu</title>
+        <title>EchoZulu</title>
         <meta name='author' content='Juan Diego Ugueto'>
         <meta name='description' content='Personal website'>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
         <meta name='copyright' content='Juan Diego Ugueto'>
         <link href='./style.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/0d9ce62f43.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,37 +17,41 @@
 
     <div class="container">
 
-        <header>
-            <h2>Echo & Zulu</h2>
-            <div class="icons">
-                <a href="https://github.com/ugueto" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/juan-diego-ugueto/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/ugu3to" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://medium.com/@ugueto" target="_blank"><i class="fab fa-medium"></i></a>
-            </div>
-            <hr>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">EchoZulu</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a href="https://github.com/ugueto" class="nav-link active" aria-current="page" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li class="nav-item"><a href="https://linkedin.com/in/juan-diego-ugueto/" class="nav-link"><i class="fab fa-linkedin"></i></a></li>
+              <li class="nav-item"><a href="https://twitter.com/ugu3to" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+              <li class="nav-item"><a href="https://medium.com/@ugueto" class="nav-link"><i class="fab fa-medium"></i></a></li>
+            </ul>
         </header>
 
-            <section class="about">
-                <h3><u>About me</u></h3>
-                <p>I am an engineer, among other things.<br>
-                    In case you were wondering, Echo & Zulu are my dogs.<br>
-                    And no, I don't need fancy JavaScript for my personal website.<br>
-                    <br>
-                    Currently reading (January 8th, 2024):<br>
-                    [Book - Nonfiction] <a href="https://www.amazon.com/Pathless-Path-Imagining-Story-Work-ebook/dp/B09QF1ZCT2" target="_blank">The Pathless Path</a> by Paul Millerd<br>
-                    [Book - Fiction] <a href="https://www.amazon.com/All-Systems-Red-Kindle-Single-ebook/dp/B01MYZ8X5C" target="_blank">All Systems Red</a> by Martha Wells<br>
-                </p>
-            </section>
+        <div class="b-example-divider"></div>
+    
+        <section class="about">
+            <h3><u>About me</u></h3>
+            <p>I am an engineer, among other things.<br>
+                In case you were wondering, Echo & Zulu are my dogs.<br>
+                <br>
+                Currently reading (January 8th, 2024):<br>
+                [Book - Nonfiction] <a href="https://www.amazon.com/Pathless-Path-Imagining-Story-Work-ebook/dp/B09QF1ZCT2" target="_blank">The Pathless Path</a> by Paul Millerd<br>
+                [Book - Fiction] <a href="https://www.amazon.com/All-Systems-Red-Kindle-Single-ebook/dp/B01MYZ8X5C" target="_blank">All Systems Red</a> by Martha Wells<br>
+            </p>
+        </section>
 
-            <section class="blog">
-                <h3><u>Projects & Recs</u></h3>
-                <p>
-                [Blog post] - <a href="https://medium.com/@ugueto/2024-the-year-ahead">2024 - The Year Ahead</a><br>
-                [Tutorial] - <a href="https://github.com/ugueto/fastapi-tutorial">FastAPI</a><br>
-                [Tutorial] - <a href="https://github.com/ugueto/flask-tutorial">Flask</a><br>
-                </p>
-            </section>
+        <section class="blog">
+            <h3><u>Projects & Recs</u></h3>
+            <p>
+            [Blog post] - <a href="https://medium.com/@ugueto/2024-the-year-ahead">2024 - The Year Ahead</a><br>
+            [Tutorial] - <a href="https://github.com/ugueto/fastapi-tutorial">FastAPI</a><br>
+            [Tutorial] - <a href="https://github.com/ugueto/flask-tutorial">Flask</a><br>
+            </p>
+        </section>
 
         <footer>
             <hr>
@@ -54,6 +59,7 @@
         </footer>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body>
 
