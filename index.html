@@ -2,7 +2,7 @@
 <html lang='en'>
     
 <head>
-        <title>Juan Ugueto's site</title>
+        <title>EchoZulu</title>
         <meta name='author' content='Juan Diego Ugueto'>
         <meta name='description' content='Personal website'>
         <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
@@ -11,17 +11,16 @@
         <link href='./style.css' rel='stylesheet'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <script src="https://kit.fontawesome.com/0d9ce62f43.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <div class="container">
-
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top">
+        <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#book"></use></svg>
-                <span class="fs-4">Juan Ugueto's blog</span>
+                <span class="fs-4">EchoZulu</span>
             </a>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a href="https://twitter.com/ugu3to"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
@@ -29,26 +28,54 @@
                 <li class="ms-3"><a href="https://linkedin.com/in/juan-diego-ugueto/"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"></use></svg></a></li>
                 <li class="ms-3"><a href="https://github.com/ugueto"><svg class="bi" width="24" height="24"><use xlink:href="#github"></use></svg></a></li>
               </ul>
+        </div>
         </header>
 
         <div class="b-example-divider"></div>
     
         <section class="about">
-            <h3><u>2024 Reading list</u></h3>
-            <p>I often read.<br>
-                <br>
-                2024 Reading list: (Last updated January 8th, 2024):<br>
-                [Book - Nonfiction] <a href="https://www.amazon.com/Pathless-Path-Imagining-Story-Work-ebook/dp/B09QF1ZCT2" target="_blank">The Pathless Path</a> by Paul Millerd<br>
-                [Book - Fiction] <a href="https://www.amazon.com/All-Systems-Red-Kindle-Single-ebook/dp/B01MYZ8X5C" target="_blank">All Systems Red</a> by Martha Wells<br>
+            <h3><u>About</u></h3>
+            <p>I am many things, but my job title says software engineer.<br>
+                EchoZulu is my blog (and also the name of my dogs).
             </p>
+            <div class="list-group w-auto">
+                <label class="list-group-item d-flex gap-3">
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked="" style="font-size: 1.375em;">
+                    <span class="pt-1 form-checked-content">
+                    <strong><a href="https://www.amazon.com/Pathless-Path-Imagining-Story-Work/dp/B09QF6Q421">The Pathless Path</a></strong>
+                    <small class="d-block text-muted">
+                        <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"></use></svg>
+                        03/01/2024
+                    </small>
+                    </span>
+                </label>
+                <label class="list-group-item d-flex gap-3">
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
+                    <span class="pt-1 form-checked-content">
+                    <strong><a href="https://www.amazon.com/All-Systems-Red-Murderbot-Diaries/dp/0765397536">All Systems Red</a></strong>
+                    <small class="d-block text-muted">
+                        <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"></use></svg>
+                        03/01/2024
+                    </small>
+                    </span>
+                </label>
+                <label class="list-group-item d-flex gap-3">
+                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
+                    <span class="pt-1 form-checked-content">
+                    <strong><a href="https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339">Accelerate: </a></strong>
+                    <small class="d-block text-muted">
+                        <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#alarm"></use></svg>
+                        08/01/2024
+                    </small>
+                    </span>
+                </label>
+            </div>
         </section>
 
         <section class="blog">
-            <h3><u>Projects</u></h3>
-            <p>I seldom write.<br>
-            [Blog post] - <a href="https://medium.com/@ugueto/2024-the-year-ahead">2024 - The Year Ahead</a><br>
-            [Tutorial] - <a href="https://github.com/ugueto/fastapi-tutorial">FastAPI</a><br>
-            [Tutorial] - <a href="https://github.com/ugueto/flask-tutorial">Flask</a><br>
+            <h3><u>Blog</u></h3>
+            <p>Here you may find blog posts, tutorials, and recommended readings.<br>
+                Topics are usually related to startups, technology, security, and books.
             </p>
         </section>
 
