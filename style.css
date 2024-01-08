@@ -9,9 +9,9 @@ body {
     position: relative;
     max-width: 1000px;
     grid-template: 
-    [header-left] "head head" 15% [header-right]
-    [main-left] "about  blog" 70% [main-right]
-    [footer-left] "foot  foot" 15% [footer-right];
+    [header-left] "head head" 20% [header-right]
+    [main-left] "about  blog" 60% [main-right]
+    [footer-left] "foot  foot" 20% [footer-right];
     grid-gap: 20px;
     padding: 10px;
 }
@@ -39,9 +39,9 @@ footer {
         position: relative;
         max-height: 1200px;
         grid-template:
-        [header-left] "head head" 15% [header-right]
-        [main-left] "about  blog" 70% [main-right]
-        [footer-left] "foot  foot" 15% [footer-right];
+        [header-left] "head head" 20% [header-right]
+        [main-left] "about  blog" 60% [main-right]
+        [footer-left] "foot  foot" 20% [footer-right];
         grid-gap: 20px;
         padding: 10px;
     }
