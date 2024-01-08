@@ -8,26 +8,18 @@ body {
     margin: auto;
     position: relative;
     max-width: 1000px;
-    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-template: [main-left] "about  blog" 100% [main-right];
     grid-gap: 20px;
 }
 
-header {
-    grid-area: 1 / 1 / span 1 / span 4;
-}
-
 .about {
-    grid-area: 2 / 1 / span 2 / span 2;
+    grid-area: about;
     padding: 10px;
 }
 
 .blog {
-    grid-area: 2 / 3 / span 2 / span 2;
+    grid-area: blog;
     padding: 10px;
-}
-
-footer {
-    grid-area: 4 / 1 / span 1 / span 4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -36,17 +28,17 @@ footer {
         margin: auto;
         position: relative;
         max-height: 1200px;
-        grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+        grid-template: [main-left] "about  blog" 100% [main-right];
         grid-gap: 20px;
     }
     
     .about {
-        grid-area: 2 / 1 / span 1 / span 4;
+        grid-area: about;
         padding: 10px;
     }
     
     .blog {
-        grid-area: 3 / 1 / span 1 / span 4;
+        grid-area: blog;
         padding: 10px;
     }
 }
