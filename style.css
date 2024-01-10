@@ -9,6 +9,7 @@ body {
     display: grid;
     margin: auto;
     position: relative;
+    max-height: 1200px;
     max-width: 1000px;
     grid-template: 
     [header-left] "head head" 20% [header-right]
@@ -28,6 +29,11 @@ header {
 
 .blog {
     grid-area: blog;
+}
+
+.list-group {
+    max-height: 400px;
+    overflow-y: scroll;
 }
 
 footer {
