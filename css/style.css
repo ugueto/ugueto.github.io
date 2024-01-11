@@ -47,10 +47,10 @@ footer {
         position: relative;
         max-height: 1200px;
         grid-template:
-        [header-left] "head head" 20% [header-right]
+        [header-left] "head head" 10% [header-right]
         [one-left] "books books" 30% [one-right]
         [two-left] "blog blog" 30% [two-right]
-        [footer-left] "foot foot" 20% [footer-right];
+        [footer-left] "foot foot" 10% [footer-right];
         grid-gap: 20px 30px;
         padding: 10px;
     }
