@@ -13,8 +13,8 @@ body {
     max-width: 1000px;
     grid-template: 
     [header-left] "head head" 20% [header-right]
-    [main-left] "about  blog" 60% [main-right]
-    [footer-left] "foot  foot" 20% [footer-right];
+    [main-left] "books blog" 60% [main-right]
+    [footer-left] "foot foot" 20% [footer-right];
     grid-gap: 20px 30px;
     padding: 10px;
 }
@@ -23,8 +23,8 @@ header {
     grid-area: head;
 }
 
-.about {
-    grid-area: about;
+.books {
+    grid-area: books;
 }
 
 .blog {
@@ -48,8 +48,9 @@ footer {
         max-height: 1200px;
         grid-template:
         [header-left] "head head" 20% [header-right]
-        [main-left] "about  blog" 60% [main-right]
-        [footer-left] "foot  foot" 20% [footer-right];
+        [one-left] "books books" 30% [one-right]
+        [two-left] "blog blog" 30% [two-right]
+        [footer-left] "foot foot" 20% [footer-right];
         grid-gap: 20px 30px;
         padding: 10px;
     }
