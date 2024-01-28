@@ -8,6 +8,8 @@
     [header-left] "head head" 20% [header-right]
     [main-left] "books blog" 60% [main-right]
     [footer-left] "foot foot" 20% [footer-right];
+    grid-gap: 20px;
+    padding: 10px;
 }
 
 header {
@@ -29,7 +31,6 @@ header {
 
 footer {
     grid-area: foot;
-    position: absolute;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,5 +43,7 @@ footer {
         [one-left] "books books" 30% [one-right]
         [two-left] "blog blog" 30% [two-right]
         [footer-left] "foot foot" 10% [footer-right];
+        grid-gap: 20px;
+        padding: 10px;
     }
 }
