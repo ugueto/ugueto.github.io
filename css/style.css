@@ -1,14 +1,22 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .container {
     display: grid;
     margin: auto;
     position: relative;
+    max-height: 1200px;
+    max-width: 1000px;
     grid-template: 
     [header-left] "head head" 20% [header-right]
     [main-left] "books blog" 60% [main-right]
     [footer-left] "foot foot" 20% [footer-right];
-    grid-gap: 20px;
+    grid-gap: 20px 30px;
     padding: 10px;
 }
 
@@ -29,6 +37,14 @@ header {
     overflow-y: scroll;
 }
 
+a:link {
+    color: #00FF00;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
 footer {
     grid-area: foot;
 }
@@ -38,12 +54,13 @@ footer {
         display: grid;
         margin: auto;
         position: relative;
+        max-height: 1200px;
         grid-template:
         [header-left] "head head" 10% [header-right]
         [one-left] "books books" 30% [one-right]
         [two-left] "blog blog" 30% [two-right]
         [footer-left] "foot foot" 10% [footer-right];
-        grid-gap: 20px;
+        grid-gap: 20px 30px;
         padding: 10px;
     }
 }
