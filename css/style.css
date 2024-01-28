@@ -1,9 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body {
-    font-family: "Courier New", Courier, monospace;
-}
-
 .container {
     display: grid;
     margin: auto;
@@ -33,6 +29,7 @@ header {
 
 footer {
     grid-area: foot;
+    position: absolute;
 }
 
 @media only screen and (max-width: 600px) {
