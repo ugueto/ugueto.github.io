@@ -6,7 +6,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.list-group {
+.list-group-mine .list-group {
     max-height: 400px;
     overflow-y: scroll;
     color: white;
