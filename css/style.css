@@ -9,6 +9,8 @@ body {
 .list-group {
     max-height: 400px;
     overflow-y: scroll;
+    color: white;
+    background-color: black;
 }
 
 a:link {
